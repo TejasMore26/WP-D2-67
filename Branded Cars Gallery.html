@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/Mukesh%20More/OneDrive/Documents/PhotoGallery.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branded Cars Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            max-width: 1000px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 90%;
+            height: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Branded Cars Gallery</h1>
+    <div class="gallery">
+        <img src="./Branded Cars Gallery_files/ferrari.jpg" alt="Ferrari">
+        <img src="./Branded Cars Gallery_files/lamborghini.jpg" alt="Lamborghini">
+        <img src="./Branded Cars Gallery_files/BMW.jpg" alt="BMW">
+        <img src="./Branded Cars Gallery_files/Mercedes.jpg" alt="Mercedes">
+        <img src="./Branded Cars Gallery_files/audi.jpg" alt="Audi">
+        <img src="./Branded Cars Gallery_files/porsche.jpg" alt="Porsche">
+        <img src="./Branded Cars Gallery_files/bugatti.jpg" alt="Bugatti">
+        <img src="./Branded Cars Gallery_files/rolls royce.jpg" alt="Rolls Royce">
+        <img src="./Branded Cars Gallery_files/range rover.jpg" alt="Range Rover">
+        <img src="./Branded Cars Gallery_files/defender.jpg" alt="Defender">
+        <img src="./Branded Cars Gallery_files/tesla.jpg" alt="Tesla">
+        <img src="./Branded Cars Gallery_files/chevrolet.jpg" alt="Chevrolet">
+    </div>
+
+</body></html>
